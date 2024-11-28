@@ -1,0 +1,122 @@
+#addMain {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#addHead {
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+    color: white;
+    background-color: #C38D9E;
+}
+
+#addHead button {
+    background-color: transparent;
+    border: transparent;
+    color: white
+}
+
+#addcenter {
+    height: 90%;
+    display: flex;
+}
+
+#addleft {
+    padding-top: 5%;
+    height: 100%;
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #eee;
+}
+
+#addleft h2 {
+    cursor: pointer;
+}
+
+#addright {
+    height: 100%;
+    width: 73%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intodo {
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.intodo h2 {
+    display: inline;
+}
+
+.intodo input,
+textarea {
+    border: transparent;
+    outline: none;
+}
+
+.intodo div {
+    display: flex;
+    gap: 7px;
+}
+
+.intodo button {
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.inproj {
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.inproj input {
+    border: transparent;
+    outline: none;
+}
+
+.inproj button {
+    height: 30px;
+    width: 120px;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #3ba395;
+    color: #3ba395;
+}
+
+#addMain {
+    margin: 0px;
+    height: 70%;
+    width: 70%;
+    position: fixed;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.blurred {
+    filter: blur(5px);
+    transition: filter 0.3s ease-in-out;
+}
